@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-ala",
+  "version": "0.0.3",
+  "description": "test-plugin",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "aemeddeb",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "LGPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alaameddeb/ESLint-plugin"
+  }
+}
